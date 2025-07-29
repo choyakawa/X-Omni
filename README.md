@@ -1,6 +1,6 @@
 # 🎨 X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again
 
-<p align="center">
+<p>
   <a href="https://x-omni-team.github.io/">🏠 Project Page</a> |
   <a href="">📄 Paper</a> |
   <a href="">🤗 HuggingFace Model</a> |
