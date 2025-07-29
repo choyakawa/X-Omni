@@ -50,7 +50,8 @@ def main(args):
         add_special_tokens=False, 
         return_tensors='pt',
     ).cuda().expand(1, -1)
-    
+
+    torch.manual_seed(args.seed)
     tokens = model.generate(
         inputs=input_ids, 
         attention_mask=attention_mask,
@@ -59,6 +60,7 @@ def main(args):
     )
     
     tokens = torch.nn.functional.pad(tokens, (0, 1), value=tokenizer.convert_tokens_to_ids('<EOM>'))
+    torch.manual_seed(args.seed)
     _, images = model.mmdecode(tokenizer, tokens[0], skip_special_tokens=False)
     images[0].save(args.output_path)
 
@@ -75,5 +77,6 @@ if __name__ == "__main__":
     parser.add_argument("--temperature", type=float, default=1.0, help="temperature value to sample with")
     parser.add_argument("--min-p", type=float, default=0.03, help="min-p value to sample with")
     parser.add_argument("--top-p", type=float, default=1.0, help="top-p value to sample with")
+    parser.add_argument("--seed", type=int, default=1234)
     args = parser.parse_args()
     main(args)
