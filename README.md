@@ -1,4 +1,4 @@
-# 🎨 X-Omni: Reinforcement Learning Makes Autoregressive Image Generative Models Great Again
+# 🎨 X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again
 
 <p align="center">
   <a href="https://x-omni-team.github.io/">🏠 Project Page</a> |
@@ -109,7 +109,7 @@ If you find this project helpful for your research or use it in your own work, p
 ```bibtex
 @article{geng2025xomni,
       author       = {Zigang Geng, Yibing Wang, Yeyao Ma, Chen Li, Yongming Rao, Shuyang Gu, Zhao Zhong, Qinglin Lu, Han Hu, Xiaosong Zhang, Linus, Di Wang and Jie Jiang},
-      title        = {X-Omni: Reinforcement Learning Makes Autoregressive Image Generative Models Great Again},
+      title        = {X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again},
       journal      = {CoRR},
       volume       = {abs/None},
       year         = {2025},
