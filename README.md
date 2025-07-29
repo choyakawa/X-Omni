@@ -46,6 +46,7 @@ python generate.py \
     --image-size 1152 1152 \
     --cfg-scale 1.0 \
     --min-p 0.03 \
+    --seed 1234 \
     --output-path $IMG_PATH
 ```
 
@@ -63,6 +64,7 @@ python generate.py \
     --image-size 1152 1152 \
     --cfg-scale 1.0 \
     --min-p 0.03 \
+    --seed 1234 \
     --output-path $IMG_PATH
 ```
 
