@@ -1,10 +1,10 @@
 # 🎨 X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again
 
 <p>
-  <a href="https://x-omni-team.github.io/">🏠 Project Page</a> |
-  <a href="">📄 Paper</a> |
-  <a href="">🤗 HuggingFace Model</a> |
-  <a href="">🚀 HuggingFace Space</a> |
+  <a href="https://x-omni-team.github.io">🏠 Project Page</a> |
+  <a href="https://x-omni-team.github.io">📄 Paper</a> |
+  <a href="https://huggingface.co/collections/X-Omni/x-omni-models-6888aadcc54baad7997d7982">🤗 HuggingFace Model</a> |
+  <a href="https://huggingface.co/collections/X-Omni/x-omni-spaces-6888c64f38446f1efc402de7">🚀 HuggingFace Space</a> |
   <a href="#my-benchmark-section">📊 LongText-Bench</a>
 </p>
 
@@ -34,7 +34,9 @@ pip install flash_attn-2.7.3+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.
 ### Inference
 #### 1. Image Generation in English
 ```bash
-POPMRT="Input your prompt here"
+POPMRT='''
+A formal letter document with a professional tone. Create a document that includes  a section starting with "To, Mr. Edward Robertson," aligned to the left. Underneath, place the date "Date: 27th July 2025" also aligned to the left. Begin the body of the letter with "Dear Sir," indented slightly from the left margin. The first paragraph should state, "I am writing to you with intent of purchasing your property located at #765, Lincoln Street, New York." The second paragraph should read, "I want to propose a purchase price of $100,000 for your property. I am willing to pay you $20,000 as advance." The closing remarks should be, "Kindly let me know what do you think of the offer and we can make a few changes as per your requirements." followed by "Regards," and then "William Specter". Finally, add a logo with a feather graphic in the bottom right corner.
+'''.strip()
 IMG_PATH=/path/to/save/generation
 FLUX_PATH=/path/to/FLUX.1-dev
 python generate.py \
@@ -49,7 +51,9 @@ python generate.py \
 
 #### 2. Image Generation in Chinese
 ```bash
-PROMPT="请输入你的提示词"
+PROMPT='''
+生成一张雪中的紫禁城全景封面图，作为北京冬季旅游指南的主题。画面以近景构图展现建筑，红墙金瓦被皑皑白雪覆盖，朱红色宫墙，金黄色瓦片与洁白雪色形成强烈对比，琉璃瓦顶的积雪在阳光下折射出晶莹光泽。前景一枝腊梅花正在盛开，背景为灰蓝色冬日天空，飘落细雪，远处角楼轮廓若隐若现，增添朦胧诗意感。图片上有标题“雪落北平·穿越600年”，另有副标题“北京古建筑雪景深度游”。文字艺术感极强，与图片良好融合起来
+'''.strip()
 IMG_PATH=/path/to/save/generation
 FLUX_PATH=/path/to/FLUX.1-dev
 python generate.py \
