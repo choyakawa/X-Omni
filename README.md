@@ -24,7 +24,7 @@ Official inference code and LongText-Bench benchmark for our paper **X-Omni**, a
 ```bash
 conda create -n xomni python==3.12
 conda activate xomni
-pip install -r requirements
+pip install -r requirements.txt
 pip install flash-attn --no-build-isolation 
 ```
 If you get trouble in installing flash_attn, please refer to the offical repository: https://github.com/Dao-AILab/flash-attention. We recommand installing from .whl file like:
