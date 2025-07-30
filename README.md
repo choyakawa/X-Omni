@@ -41,7 +41,7 @@ FLUX_PATH=/path/to/FLUX.1-dev
 python generate.py \
     --model_name_or_path X-Omni/X-Omni-En \
     --flux_model_name_or_path $FLUX_PATH \
-    --prompt $PROMPT \
+    --prompt "$PROMPT" \
     --image-size 1152 1152 \
     --cfg-scale 1.0 \
     --min-p 0.03 \
@@ -58,7 +58,7 @@ FLUX_PATH=/path/to/FLUX.1-dev
 python generate.py \
     --model_path X-Omni/X-Omni-Zh \
     --flux_model_name_or_path $FLUX_PATH \
-    --prompt $PROMPT \
+    --prompt "$PROMPT" \
     --image-size 1152 1152 \
     --cfg-scale 1.0 \
     --min-p 0.03 \
