@@ -129,6 +129,8 @@ For questions or feedback, please don't hesitate to reach out:
 - **Yibing Wang**: wangyibing18@mails.ucas.ac.cn
 - **Tencent Hunyuan X Team**
 
+If you are interested in joining us in working on **unified multimodal models**, please feel free to contact [Xiaosong Zhang](https://zhangxiaosong18.github.io).
+
 ---
 
 ⭐️ If this repository helped your research, please star 🌟 this repo 👍!
