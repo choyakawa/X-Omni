@@ -1,6 +1,6 @@
-torch
-torchvision
 timm
+torch==2.6.0
+torchvision==0.21.0
 accelerate
 diffusers
 transformers==4.51.3
