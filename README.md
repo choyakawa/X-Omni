@@ -2,7 +2,7 @@
 
 <p>
   <a href="https://x-omni-team.github.io">🏠 Project Page</a> |
-  <a href="https://x-omni-team.github.io">📄 Paper</a> |
+  <a href="https://arxiv.org/pdf/2507.22058">📄 Paper</a> |
   <a href="https://huggingface.co/collections/X-Omni/x-omni-models-6888aadcc54baad7997d7982">🤗 HuggingFace Model</a> |
   <a href="https://huggingface.co/collections/X-Omni/x-omni-spaces-6888c64f38446f1efc402de7">🚀 HuggingFace Space</a> |
   <a href="#my-benchmark-section">📊 LongText-Bench</a>
@@ -115,7 +115,7 @@ If you find this project helpful for your research or use it in your own work, p
       author       = {Zigang Geng, Yibing Wang, Yeyao Ma, Chen Li, Yongming Rao, Shuyang Gu, Zhao Zhong, Qinglin Lu, Han Hu, Xiaosong Zhang, Linus, Di Wang and Jie Jiang},
       title        = {X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again},
       journal      = {CoRR},
-      volume       = {abs/None},
+      volume       = {abs/2507.22058},
       year         = {2025},
 }
 ```
