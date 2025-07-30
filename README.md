@@ -69,7 +69,7 @@ python generate.py \
 #### 3. Multi-modal Chat
 ```bash
 IMG_PATH=/path/to/your/input/image
-PROMPT="Input your question here"
+PROMPT="Describe the image in detail."
 FLUX_PATH=/path/to/FLUX.1-dev
 python chat.py \
     --model_name_or_path X-Omni/X-Omni-En \
