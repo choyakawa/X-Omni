@@ -79,7 +79,9 @@ python chat.py \
 ```
 
 <a id="my-benchmark-section"></a>
-## 📊 LongText-Bench
+## 📊 LongText-Bench 
+[huggingface dataset](https://huggingface.co/datasets/X-Omni/LongText-Bench)
+
 ### 1. Install environment for Qwen2.5-VL
 ```bash
 pip install transformers==4.52.0
