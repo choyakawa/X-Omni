@@ -5,7 +5,8 @@
   <a href="https://arxiv.org/pdf/2507.22058">📄 Paper</a> |
   <a href="https://huggingface.co/collections/X-Omni/x-omni-models-6888aadcc54baad7997d7982">🤗 HuggingFace Model</a> |
   <a href="https://huggingface.co/collections/X-Omni/x-omni-spaces-6888c64f38446f1efc402de7">🚀 HuggingFace Space</a> |
-  <a href="#my-benchmark-section">📊 LongText-Bench</a>
+  <a href="#my-benchmark-section">📊 LongText-Bench</a> |
+  <a href="https://huggingface.co/datasets/X-Omni/LongText-Bench">🤗 LongText-Bench</a>
 </p>
 
 
